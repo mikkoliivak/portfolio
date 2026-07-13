@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* white / black / blue — one accent, no exceptions */
+  --paper: #ffffff;
+  --panel: #f2f2f2;
+  --ink: #000000;
+  --muted: #666666;
+  --line: rgba(0, 0, 0, 0.12);
+
+  --accent: #0072ce;
+  --accent-tint: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  --accent-bright: color-mix(in srgb, var(--accent) 78%, white);
+
+  --font-display-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --color-panel: var(--panel);
+  --color-muted: var(--muted);
+  --color-border: var(--line);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-amber: var(--accent);
+  --color-teal: var(--accent);
+  --color-amber-tint: var(--accent-tint);
+  --color-teal-tint: var(--accent-tint);
+  --color-amber-bright: var(--accent-bright);
+  --color-teal-bright: var(--accent-bright);
+  --font-sans: var(--font-body-family);
+  --font-display: var(--font-display-family);
+  --font-mono: var(--font-mono-family);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
