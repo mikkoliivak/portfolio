@@ -14,6 +14,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/mikkoliivak",
     featured: true,
     year: 2026,
+    image: "/images/piste.jpg",
   },
   {
     slug: "gis-mapping-tool",
