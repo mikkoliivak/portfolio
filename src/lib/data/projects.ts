@@ -59,6 +59,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/mikkoliivak/ThreeQ",
     featured: true,
     year: 2024,
+    image: "/images/threeq.jpg",
   },
   {
     slug: "sbc-trainer",
