@@ -62,19 +62,6 @@ export const projects: Project[] = [
     image: "/images/threeq.jpg",
   },
   {
-    slug: "sbc-trainer",
-    title: "SBC Trainer Database App",
-    description:
-      "OCaml squad-building solver for EA Sports FC, searching over 1,000+ player combinations to solve puzzles in under 10 seconds.",
-    longDescription:
-      "Led a 3-person team building and testing backend systems in OCaml, backed by 50+ unit tests for reliability. The core is an interactive solver that searches over 1,000+ player combinations in EA Sports FC's squad-building challenges, using search-based optimization to resolve complex puzzles in under 10 seconds.",
-    category: "swe",
-    tags: ["OCaml"],
-    githubUrl: "https://github.com/mikkoliivak",
-    featured: false,
-    year: 2024,
-  },
-  {
     slug: "takeout",
     title: "Takeout",
     description: "Original house / UK garage production.",
