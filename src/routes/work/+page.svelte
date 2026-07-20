@@ -39,6 +39,24 @@
       </div>
 
       {#if activeTab === 'music'}
+        <div class="mb-8 flex flex-wrap gap-x-6 gap-y-2 font-mono text-xs tracking-[0.1em] lowercase">
+          <a
+            href="https://open.spotify.com/artist/1v8vOC2fsjQfsvQ48qYxKK?si=IWdIJBwpQc6GymEKWnhAng"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted transition-colors hover:text-foreground"
+          >
+            Spotify
+          </a>
+          <a
+            href="https://linktr.ee/mikkoliivak"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-muted transition-colors hover:text-foreground"
+          >
+            Linktree
+          </a>
+        </div>
         <div class="flex flex-col gap-6">
           {#each filteredProjects as project, index (project.slug)}
             <div in:scale={{ start: 0.9, duration: 300, opacity: 0 }}>
