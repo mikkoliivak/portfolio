@@ -26,7 +26,6 @@ export const experience: ExperienceEntry[] = [
     location: "New York, NY (Remote)",
     start: "Jun 2026",
     end: "Aug 2026",
-    current: true,
     bullets: [
       "Owned end-to-end delivery of **3+ customer-facing C#/.NET features** for enterprise financial reporting.",
       "Shipped configuration features for enterprise financial reporting software used by **1,800+ global customers**.",

@@ -61,7 +61,7 @@
           in:fly={{ y: 16, duration: 500, delay: 500 }}
           class="mt-12 font-mono text-[11px] tracking-[0.1em] text-muted lowercase"
         >
-          Currently interning at OneStream Software
+          currently at cornell university
         </p>
       </div>
 

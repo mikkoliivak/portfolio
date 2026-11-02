@@ -23,8 +23,9 @@
       <AnimatedSection delay={0.1}>
         <div class="mt-8 space-y-5 text-lg leading-relaxed text-muted">
           <p>
-            I'm a CS student at Cornell, currently interning at OneStream
-            Software. Alongside coursework, I work across two Cornell
+            I'm a CS student finishing my undergrad at Cornell, and I intend
+            to continue into Cornell's M.Eng. in Computer Science, graduating
+            in December 2027. Alongside coursework, I work across two Cornell
             research groups, building geospatial tools for a datacenter
             acoustics study and a sensor pipeline for a water-recording
             drone, and previously served as a founding engineer at PARES AI,
@@ -33,8 +34,8 @@
           <p>
             I'm drawn to the creative side of engineering, and find that
             pull carries into the rest of my life: I produce house and UK
-            garage music, climb and work at Cornell Outdoor Education, and
-            backcountry ski across the US and Canada.
+            garage music, climb, and backcountry ski across the US and
+            Canada.
           </p>
         </div>
       </AnimatedSection>
@@ -49,9 +50,6 @@
           </a>
           <a href="https://www.linkedin.com/in/mikkoliivak/" target="_blank" rel="noopener noreferrer" class="text-muted transition-colors hover:text-foreground">
             LinkedIn &#8599;
-          </a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" class="text-teal transition-colors hover:text-foreground">
-            Download Resume &#8595;
           </a>
         </div>
       </AnimatedSection>
